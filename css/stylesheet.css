@@ -1,0 +1,796 @@
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+     
+    
+}
+    
+.container-fluid{
+        overflow: hidden;
+        padding: 0;
+    }
+.card{
+        border: 0;
+    }
+.header{
+    position: relative;
+   top: 6px ;
+    left:10px;
+    width:15% ;
+}
+
+.logo{
+    position: relative;
+    bottom: 26vh;
+    font-size: 10px;
+    left: 8px;
+}
+
+.svgs{
+    width: 17%;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+   
+      
+}
+
+.svg{
+    width: 17%;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    left: 130px;
+   
+      
+}
+.icon{
+    width: 12%;
+    display: inline-block;
+    position: relative;
+    bottom: 32px;
+    left: 87.5px;
+  
+}
+
+.numbers{
+    position: relative;
+    bottom: 60px;
+    font-size: 8px;
+    left: 106px;
+}
+
+.search{
+    position: relative;
+    bottom: 73px;
+    font-size: 8px;
+    left: 175px;
+}
+.break{
+    position: relative;
+    bottom: 100px;
+}
+.overlay-content{
+    display: none;
+}
+.menu{
+    display: none; 
+}
+.closebtn{
+    display: none;
+}
+.firsthead{
+    color: #4c95fc;
+    font-family: 'Poppins';
+    bottom: 200px;
+}
+.secondhead{
+    color: black;
+    font-family: 'Poppins',;
+    font-size: 10px;
+    bottom: 1vh;
+}
+.barr{
+    position: relative;
+    top: 8px;
+    text-align: center;
+    /* margin-left: 1rem; */
+    
+}
+.bar{
+    background-color:#4c95fc;
+    text-align: center;
+    color: #ffff;
+    height: 400px;
+   
+}
+.customers{
+    color:  #4c95fc;
+    font-size: 20.8px;
+    font-family: 'Poppins';
+    position: relative;
+    top: 10px;
+}
+.quote{
+    color: #ffffff;
+    /* font-size: 16px; */
+    font-family: poppins;
+    background-color: #4c95fc;
+    padding: 14.2px 30.064px;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+
+.pros{
+    color:  #4c95fc;
+    font-size: 20.8px;
+    font-family: 'Poppins';
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.pra{
+    color:  #4c95fc;
+    font-size: 20.8px;
+    font-family: 'Poppins';
+    position: relative;
+    bottom: 10px;
+    left: 4px;
+}
+
+.quotes{
+    color: #ffffff;
+    /* font-size: 16px; */
+    background-color: #4c95fc;
+    padding: 10px 7px;
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+    display: flex;
+}
+
+.quot{
+    color: #ffffff;
+    /* font-size: 16px; */
+    background-color: #4c95fc;
+    padding: 6px 2px;
+    display: flex;
+    left: 10px;
+    top: 25px;
+}
+.wavy-flat-stroke{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    right: 20px;
+    top: 10px;
+   
+}
+.FoundersSecCards {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: size 1;
+    font-weight: normal;
+}
+.topnav .icon {
+    display: none;
+  }
+
+.topnav{
+    display: none;
+}
+
+/*360*640  */
+@media screen and (min-width: 360px){
+
+#menuToggle {
+    display: block;
+    position: relative;
+    bottom: 11vh;
+    left: 315px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  #menuToggle span {
+      display: block;
+      width: 35px;
+      height: 2.5px;
+      margin-bottom: 5px;
+      position: relative;
+      right: 35px;
+      background:black;
+      border-radius: 3px;
+      z-index: 1;
+  }
+
+  /* The Overlay (background) */
+ .overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 100vw;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left:-100vw;
+    top: 0;
+    z-index: 5;
+    background-color: white; /* Black fallback color */
+    /* background-color: rgba(0,0,0, 0.9); Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+
+}
+  /* Styling the logo */
+.header{
+    position: relative;
+   top: 10px ;
+    left:20px;
+    width: 12%;
+}
+.icon{
+    width: 8%;
+    display: inline-block;
+    position: relative;
+    bottom: 36px;
+    left: 138px;
+}
+.svgs{
+    width: 12%;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    left: 160px;
+   
+      
+}
+
+.svg{
+    width: 12%;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    left: 180px;
+   
+      
+}
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  
+
+  .numbers{
+    position: relative;
+    bottom: 70px;
+    font-size: 10px;
+    left: 150px;
+}
+
+.search{
+    position: relative;
+    bottom: 85px;
+    font-size: 10px;
+    left: 230px;
+}
+.logo{
+    position: relative;
+    bottom: 95px;
+    font-size: 10px;
+    left: 20px;
+}
+.menu{
+    position: relative;
+    bottom: 20px;
+    font-size: 10px;
+    left: 100px;
+    
+}
+#SERVICES{
+    position: relative;
+     bottom: 100px;
+}
+.firsthead{
+    color: #4c95fc;
+    font-family: 'Poppins';
+    font-size: 1em;
+}
+.break{
+    position: relative;
+    bottom: 115px;
+}
+
+.barr{
+    position: relative;
+    top: 8px;
+    text-align: center;
+    /* margin-left: 1rem; */
+    
+}
+.Bluediv{
+    background-color:#4c95fc;
+    text-align: center;
+    color: #ffff;
+    height: 100px;
+   
+}
+.quote{
+    color: #ffffff;
+    /* font-size: 16px; */
+    font-family: poppins;
+    background-color: #4c95fc;
+    padding: 19.2px 32.064px;
+    position: relative;
+    left: 100px;
+    top: 15px;
+}
+.customers{
+    color:  #4c95fc;
+    /* font-size: 28.8px; */
+    font-family: 'Poppins';
+}
+.FirstCustomer{
+    color:  black;
+    /* font-size: 19.2px; */
+    font-family: 'Poppins';
+}
+.FirstCustomers{
+    color:  black;
+    /* font-size: 19.2px; */
+    font-family: 'Poppins';
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+p{
+    color: black;
+    font-size:1em;
+}
+.pros{
+    color:  #4c95fc;
+    font-size: 20.8px;
+    font-family: 'Poppins';
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+.quotes{
+    color: #ffffff;
+    /* font-size: 16px; */
+    background-color: #4c95fc;
+    padding: 10px 7px;
+    position: relative;
+    left: 100px;
+   bottom: 30px;
+    /* display: flex; */
+}
+
+.FoundersSecCards {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: size 1;
+    font-weight: normal;
+}
+.pra{
+    color:  #4c95fc;
+    /* font-size: 28.8px; */
+    font-family: 'Poppins';
+    position: relative;
+    bottom: 20px;
+    left: 4px;
+}
+.wavy-flat-stroke{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    right: 20px;
+    top: 40px;
+}
+    
+    
+}
+    
+    /*414*736  */
+    @media screen and (min-width: 414px) {
+        .icon{
+            width: 8%;
+            display: inline-block;
+            position: relative;
+            bottom: 37px;
+            left: 130px;
+        }
+
+        #menuToggle {
+            display: block;
+            position: relative;
+            bottom: 10vh;
+            left: 315px;
+            z-index: 1;
+            -webkit-user-select: none;
+            user-select: none;
+          }
+
+          .numbers{
+            position: relative;
+            bottom: 70px;
+            font-size: 10px;
+            left: 153px;
+        }
+        
+        .search{
+            position: relative;
+            bottom: 85px;
+            font-size: 10px;
+            left: 235px;
+        }
+        .word{
+            display: inline-block;
+            /* top: 30px;
+            right: 250px; */
+        }
+    }
+    
+    
+    /* 800*1280 */
+    @media screen and (min-width: 800px) {
+    #menuToggle {
+        display: block;
+        position: relative;
+        bottom: 6vh;
+        left: 600px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+      
+      #menuToggle span {
+          display: block;
+          width: 35px;
+          height: 2.5px;
+          margin-bottom: 5px;
+          position: relative;
+          right: 35px;
+          background:black;
+          border-radius: 3px;
+          z-index: 1;
+      }
+    
+      /* The Overlay (background) */
+     .overlay {
+        /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+        height: 100%;
+        width: 100vw;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left:-100vw;
+        top: 0;
+        z-index: 5;
+        background-color: white; /* Black fallback color */
+        /* background-color: rgba(0,0,0, 0.9); Black w/opacity */
+        overflow-x: hidden; /* Disable horizontal scroll */
+        transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+      }
+      
+      /* Position the content inside the overlay */
+      .overlay-content {
+        position: relative;
+        top: 25%; /* 25% from the top */
+        width: 100%; /* 100% width */
+        text-align: center; /* Centered text/links */
+        margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+      }
+      
+      /* The navigation links inside the overlay */
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: black;
+        display: block; /* Display block instead of inline */
+        transition: 0.3s; /* Transition effects on hover (color) */
+        font-size: 1.2em;
+        font-family: 'Oswald', sans-serif;
+    
+    }
+      /* Styling the logo */
+    /* .header{
+        position: relative;
+       top: 10px ;
+        left:20px;
+        width: 12%;
+    } */
+    .icon{
+        width: 3%;
+        display: inline-block;
+        position: relative;
+        bottom: 40px;
+        left: 425px;
+    }
+    .svgs{
+        width: 6%;
+        display: inline-block;
+        position: relative;
+        bottom: 30px;
+        left: 460px;
+       
+          
+    }
+    
+    .svg{
+        width: 6%;
+        display: inline-block;
+        position: relative;
+        bottom: 40px;
+        left: 470px;
+       
+          
+    }
+    .header{
+        position: relative;
+       top: 10px ;
+        left:20px;
+        width: 6%;
+    }
+      /* Position the close button (top right corner) */
+      .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+      }
+    
+      
+    
+      .numbers{
+        position: relative;
+        bottom: 70px;
+        font-size: 10px;
+        left: 460px;
+    }
+    
+    .search{
+        position: relative;
+        bottom: 90px;
+        font-size: 10px;
+        left: 530px;
+    }
+    .logo{
+        position: relative;
+        bottom: 95px;
+        font-size: 10px;
+        left: 20px;
+    }
+    .menu{
+        position: relative;
+        bottom: 20px;
+        font-size: 10px;
+        left: 100px;
+        
+    }
+    .barr{
+        column-count: 3;
+        position: relative;
+        top: 20px;
+
+        
+    }
+}
+
+    
+/* 1920*1080 */
+@media screen and (min-width: 1920px) {
+    #menuToggle{
+        display: none;
+    }
+/* Other sizes */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    bottom: 6vh;
+    left: 20vw;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+   
+  }
+  .topnav{
+      display: block;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* .topnav .icon {
+    display: none;
+  } */
+  
+    /* #header{
+        display: none;
+    } */
+
+    /* #header{
+        display: block;
+        position: relative;
+        left: 200px;
+        top: 14px;
+        width: 15%;
+        
+    } */
+.menu{
+    display: none;
+}
+
+.svgs{
+    width: 2.3%;
+    display: inline-block;
+    position: relative;
+    bottom: 18px;
+    left: 1500px;
+    z-index: 2;
+   
+      
+}
+
+.svg{
+    width: 2.3%;
+    display: inline-block;
+    position: relative;
+    bottom: 18px;
+    left: 1550px;
+    z-index: 2;
+   
+      
+}
+
+.icon{
+    width: 1.5%;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left: 1507px;
+    z-index: 2;
+}
+.search{
+    position: relative;
+    bottom: 93px;
+    font-size: 15px;
+    left: 1595px;
+}
+.numbers{
+    position: relative;
+    bottom: 70px;
+    font-size: 15px;
+    left: 1500px;
+}
+
+.logo{
+    position: relative;
+    bottom: 120px;
+    font-size: 15px;
+    left: 50px;
+}
+
+.break{
+    position: relative;
+    bottom: 130px;
+}
+#SERVICES{
+    position: relative;
+     bottom: 100px;
+    
+}
+.firsthead{
+    color: #4c95fc;
+    font-family: 'Poppins';
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 1.5vh;
+}
+
+.secondhead{
+    color: black;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 50px;
+    line-height: 30px;
+    word-spacing: 20px;
+    bottom: 1vh;
+}
+.Bluediv{
+    
+    background-color: #4c95fc;
+    color: white;
+    padding: 5em;
+    position: relative;
+    bottom:10vh;
+    right: 100px;
+    width: 160vw;
+
+}
+.barr{
+    column-count: 3;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    
+}
+
+.p-2{
+    display: inline-block;
+    bottom: 30px;
+   
+}
+
+.customers{
+    color:  #4c95fc;
+    /* font-size: 28.8px; */
+    font-family: 'Poppins';
+    position: relative;
+    top: 10px;
+    left: -50px;
+}
+#iconOne{
+    position: relative;
+    top: 100px;
+}
+.FirstCustomer{
+    position: relative;
+    top: 50px;
+}
+.quote{
+    color: #ffffff;
+    /* font-size: 16px; */
+    font-family: poppins;
+    background-color: #4c95fc;
+    padding: 14.2px 30.064px;
+    position: relative;
+    left: 800px;
+    top: 40px;
+}
+
+  }
